@@ -19,31 +19,34 @@
     "password": "12345678"
   }
 
-필드 설명:
-code: 응답 코드 (1: 성공, -1: 실패)
-msg: 응답 메시지
-data: 회원 정보. 실패 시 null
+**필드 설명:** 
+- **code:** 응답 코드 (1: 성공, -1: 실패)
+- **msg:** 응답 메시지
+- **data:** 회원 정보. 실패 시 null
 
-1. 성공 응답: 
-HTTP Status Code: 201 Created
-Response Body:
-{
+#### 성공 응답:
+- **HTTP Status Code:** 201 Created
+- **Response Body:** 
+  ```json
+  {
     "code": 1,
     "msg": "회원가입 성공",
     "data": {
-        "id": 1,
-        "email": "test@nate.com"
+      "id": 1,
+      "email": "test@nate.com"
     }
-}
+  }
 
-2. 실패 응답 (이메일 중복)
-HTTP Status Code: 409 Conflict
-Response Body:
-{
+### 2. 실패 응답 (이메일 중복)
+
+- **HTTP Status Code:** 409 Conflict
+- **Response Body:** 
+  ```json
+  {
     "code": -1,
     "msg": "동일한 email이 존재합니다.",
     "data": null
-}
+  }
 ________________________________________
 
 2. 로그인
