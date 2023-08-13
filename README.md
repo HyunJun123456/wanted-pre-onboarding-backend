@@ -1,31 +1,23 @@
 # wanted-pre-onboarding-backend
+**이름:** 원현준
 
-이름: 원현준 
+## 데모 영상
+- 구현한 API의 동작을 촬영한 데모 영상 링크: [여기에 링크 삽입]
 
-구현한 API의 동작을 촬영한 데모 영상 링크: 
+## API 호출 방법
 
-API 호출 방법
-________________________________________
-
-1. 회원가입
-URL: http://localhost:8081/api/join
-Method: POST
-
-Validation 요구사항:
-•	email:
-	타입: 문자열
-	필수: 예
-	형식: 유효한 이메일 주소 (예: example@email.com)
-•	password:
-	타입: 문자열
-	필수: 예
-	길이: 8자 이상
- 
-Request Body:
-{
-  "email": "test@nate.com",
-  "password": "12345678"
-}
+### 1. 회원가입
+- **URL:** http://localhost:8081/api/join
+- **Method:** POST
+- **Validation 요구사항:**
+  - **email:** 타입: 문자열, 필수: 예, 형식: 유효한 이메일 주소 (예: example@email.com)
+  - **password:** 타입: 문자열, 필수: 예, 길이: 8자 이상
+- **Request Body:** 
+  ```json
+  {
+    "email": "test@nate.com",
+    "password": "12345678"
+  }
 
 필드 설명:
 code: 응답 코드 (1: 성공, -1: 실패)
