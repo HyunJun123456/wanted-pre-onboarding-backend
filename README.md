@@ -2,7 +2,7 @@
 **이름:** 원현준
 
 ## 데모 영상
-- 구현한 API의 동작을 촬영한 데모 영상 링크: (https://drive.google.com/file/d/1wC4p5wXoD2FKSJ22CHp9MQxHKP4kctuI/view?usp=drive_link)
+- 구현한 API의 동작을 촬영한 데모 영상 링크: https://drive.google.com/file/d/1wC4p5wXoD2FKSJ22CHp9MQxHKP4kctuI/view?usp=sharing
 
 ## API 호출 방법
 
