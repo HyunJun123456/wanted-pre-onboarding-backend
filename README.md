@@ -27,6 +27,7 @@
 #### 성공 응답:
 - **HTTP Status Code:** 201 Created
 - **Response Body:** 
+
   ```json
   {
     "code": 1,
