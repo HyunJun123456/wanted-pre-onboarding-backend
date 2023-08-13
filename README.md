@@ -36,7 +36,7 @@
       "email": "test@nate.com"
     }
   }
-```
+  ```
 ### 2. 실패 응답 (이메일 중복)
 
 - **HTTP Status Code:** 409 Conflict
