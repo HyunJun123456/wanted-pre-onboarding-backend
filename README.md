@@ -1,6 +1,6 @@
 # wanted-pre-onboarding-backend
 
-이름: 원현준
+이름: 원현준 
 
 구현한 API의 동작을 촬영한 데모 영상 링크: 
 
